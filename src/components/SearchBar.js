@@ -10,7 +10,6 @@ class SearchBar extends React.Component{
         //console.log('i am inside'+this.state.term);
         this.props.onSubmit(this.state.term);
     }
-    //AIzaSyACetkQ6ZcVGXbjbY35DKZJ1J0BoGhHbHk
 
     render(){
         return(
